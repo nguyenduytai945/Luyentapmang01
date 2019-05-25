@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Bài 4</legend>
+        Mảng cho sẵn: 10, 11, 13, 9, 20. &nbsp;&nbsp;&nbsp;
+        <input type="button" value="Đảo mã" id="input4" onclick="daoma();">
+        <div id="result4"></div>
+    </fieldset>
+</body>
+<script>
+    var array = [10, 11, 13, 9, 20];
+
+    function daoma() {
+        array = array.reverse();
+        document.getElementById('result4').innerHTML = array;
+    }
+</script>
+
+</html>
